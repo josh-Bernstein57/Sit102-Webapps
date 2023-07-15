@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Page with CSS Styling</title>
+  <style>
+    /* Internal Styles */
+    h1 {
+      color: blue;
+    }
+    
+    .red-text {
+      color: red;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1 style="text-align: center;">HTML Page with CSS Styling</h1>
+  
+  <!-- Image tag -->
+  <img src="https://example.com/image.jpg" alt="Example Image" style="width: 300px; height: auto;">
+  
+  <!-- Table tag -->
+  <table style="width: 100%;">
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+    <tr>
+      <td>Row 1, Column 1</td>
+      <td>Row 1, Column 2</td>
+    </tr>
+    <tr>
+      <td>Row 2, Column 1</td>
+      <td>Row 2, Column 2</td>
+    </tr>
+  </table>
+  
+  <!-- Form tag -->
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+  
+  <p class="red-text">This text is styled using internal CSS.</p>
+  
+  <p style="color: green;">This text is styled using inline CSS.</p>
+</body>
+</html>
